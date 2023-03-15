@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none ;
+    background: transparent;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto ;
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+#header {
+    -webkit-box-shadow: 0 10px 8px 0 rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0 10px 8px 0 rgba(34, 60, 80, 0.2);
+    box-shadow: 0 10px 8px 0 rgba(34, 60, 80, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(4px) ;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.header-text a {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 46, 53, 0.8);
+    margin: 0 25px;
+    transition: .4s;
+}
+
+.header-text a:hover {
+        color: blue;
+        text-decoration-line: underline;
+}
+
+
+.header-text select{
+    border: none ;
+    outline: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 46, 53, 0.8);
+    margin: 25px;
+}
+.header-icons img {
+    margin: 0 12px;
+}
+.header-text select:hover{
+    color: blue;
+    text-decoration-line: underline;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto ;
+}
+.hero-text h1  {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 133.69%;
+    color: #1F2E35;
+}
+.hero-text span{
+    color: red;
+}
+#hero {
+    display: flex;
+    justify-content: space-around;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    margin: 121px 0;
+}
+.hero-text p {
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #30444E;
+    margin: 24px 0 36px 0;
+}
+.hero-text button {
+    width: 161px;
+    height: 53px;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: .3s;
+    border: solid 2px #EE4248;
+
+}
+.hero-text button:hover{
+    background: transparent;
+    border: solid 2px #EE4248;
+    color: #EE4248;
+}
+#hero-two {
+    background: #F7F7F7;
+    width: 1250px;
+    height: 500px;
+}
+.hero-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text span {
+    color: red;
+}
+.text h1{
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 133.69%;
+    color: #1F2E35;
+    margin-top: 20px;
+}
+.text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+    margin-top: 10px
+}
+.text-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-three img{
+    margin-top: 60px;
+}
+.text-three h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #EE4248;
+}
+.text-three p{
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    color: #30444E;
+    margin: 15px 0 23px 0;
+}
+.text-three button{
+    width: 119px;
+    height: 42px;
+    background: #EE4248;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    transition: .3s;
+}
+.hero-three button:hover{
+    background: transparent;
+    border: solid 2px #EE4248 ;
+    color: #EE4248;
+}
+.hero-4 {
+    display: flex;
+  align-items: center; 
+}
+#hero-4 {
+    padding: 50px 0;
+}
+.text-4 {
+    margin-right: 47px;
+}
+.text-4 h1{
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #263238;
+    margin: 10px 0 8px 0;
+}
+.text-4 p{
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+}
+.nomber h2 {
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #263238;
+    margin-bottom: 15px;
+}
+.nomber h3 a {
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+}
+.nomber{
+    align-items: center;
+}
+
